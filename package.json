@@ -4,7 +4,8 @@
   "description": "OS Agent",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/osagent/agent/issues"
   },
-  "homepage": "https://github.com/osagent/agent#readme"
+  "homepage": "https://github.com/osagent/agent#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "require-dir": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
