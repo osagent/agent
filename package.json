@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/osagent/agent#readme",
   "dependencies": {
+    "diskusage": "^1.0.0",
     "express": "^4.16.4",
     "require-dir": "^1.2.0"
   },
